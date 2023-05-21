@@ -4,7 +4,13 @@ import { blockRouterMetaData as blockRouterMetaData121220231 } from './Exercise-
 import { blockRouterMetaData as blockRouterMetaDataExerciseMultimedia } from './Exercise-multimedia/router-data';
 import { blockRouterMetaData as CssAnimations } from './CssAnimations/router-data';
 import { blockRouterMetaData as blockRouterMetaDataExerciseImages } from './Exercise-images/router-data';
+import { blockRouterMetaData as FloatsAndPositionings } from './FloatsAndPositionings/router-data';
 
 
-export const blockRouterMetaData = [blockRouterMetaData121220231, CssAnimations, blockRouterMetaDataExerciseImages, blockRouterMetaDataExerciseMultimedia];
+export const blockRouterMetaData = [blockRouterMetaData121220231,
+    CssAnimations,
+    blockRouterMetaDataExerciseImages,
+    blockRouterMetaDataExerciseMultimedia,
+    FloatsAndPositionings
+];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
