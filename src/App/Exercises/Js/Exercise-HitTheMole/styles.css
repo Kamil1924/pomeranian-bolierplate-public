@@ -1,0 +1,22 @@
+.font-test-family {
+  font-family: Chilanka;
+}
+/* .variable-string-placeholder p span */
+.variable-string-placeholder {
+  margin-left: 5px;
+}
+.settings-container {
+  /* justify-content: space-between; */
+}
+
+.label {
+  text-shadow: 30px;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.tile-container {
+  width: 1000px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

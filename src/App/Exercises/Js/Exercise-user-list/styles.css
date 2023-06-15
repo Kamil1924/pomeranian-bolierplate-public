@@ -1,0 +1,30 @@
+.user-list {
+  display: flex;
+  gap: 32px;
+}
+
+.users-list-input-wrapper {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.users-list-list-wrapper {
+  flex: 2;
+  border: 1px solid;
+}
+
+.users-list-input {
+  display: flex;
+  align-items: center;
+}
+
+.users-list-input div {
+  flex: 1;
+  margin-right: 32px;
+}
+
+.users-list-input input {
+  flex: 2;
+}
